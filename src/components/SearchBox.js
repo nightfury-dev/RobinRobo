@@ -1,5 +1,5 @@
 import React from 'react';
-import App from './App';
+import App from '../containers/App';
 
 const SearchBox = ({ searchfield, searchChange }) => {
     return (
@@ -9,7 +9,7 @@ const SearchBox = ({ searchfield, searchChange }) => {
                 type='search'
                 placeholder='search robots'
                 onChange={searchChange} />
-                
+
         </div>
     );
 }
